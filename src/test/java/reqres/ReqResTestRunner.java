@@ -6,6 +6,6 @@ public class ReqResTestRunner {
 
 	@Karate.Test
 	Karate test() {
-		return Karate.run().tags("@unit").relativeTo(getClass());
+		return Karate.run().tags("@construct-path-example").relativeTo(getClass());
 	}
 }
